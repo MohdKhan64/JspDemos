@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+     <jsp:include page="myheader.html"/>
      <h3>Hello World!!!</h3>
      The time on server is <%= new java.util.Date() %>
 </body>

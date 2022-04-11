@@ -7,6 +7,7 @@
 <title>Declaration-Test</title>
 </head>
 <body>
+     <jsp:include page="myheader.html"/>
      <%! String makeItLower(String data) {
     	 return data.toLowerCase();
      }

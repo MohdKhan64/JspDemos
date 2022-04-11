@@ -8,10 +8,11 @@
 </head>
 <body>
      <jsp:include page="myheader.html"/>
-     <% for(int i = 0; i < 5; ++i) {
-           out.println("<br/> welcome - " + i);
-        } 
-      %>
-     
+     <h3> JSP Built In Objects:</h3>
+     What is the browser the user is using :<%= request.getHeader("User-agent") %>
+     <br/><br/>
+     Host :<%= request.getHeader("Host") %>
+     <br/><br/>
+      
 </body>
 </html>

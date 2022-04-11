@@ -3,6 +3,7 @@
      <head>
      </head>
      <body>
+     <jsp:include page="myheader.html"/>
           Testing the utils : <%= HelperUtils.upperCase("Java Demo is fun") %>
      </body>
 </html>
